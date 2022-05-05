@@ -1,0 +1,72 @@
+/* Estilo por Nicolas Lima*/
+
+/* Seletor Tag */
+
+body{
+    font-family: sans-serif;
+    background-color: #141414;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  
+  }
+  
+  main{
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 0px 50px 0px 50px;
+    border: 2px solid #ccc;
+    background: linear-gradient(to left, #232323, #3b3b3b, #232323);
+    color: #fff;
+  }
+  
+  /*Seletor parente */
+  main h2{
+    text-align: center;
+    font-style: italic;
+  }
+  
+  /* Seletor agrupado */
+  input[type=number], select, input[type=text]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px auto;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  select{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid rgb(9, 212, 16);
+    cursor: pointer;
+  }
+  
+  /* Seletor tag BTN */
+  button{
+    width: 100%;
+    font-size: 1.2em;
+    background-color: rgb(25, 108, 27);
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 0px 50px 0px 50px;
+    cursor: pointer;
+  }
+  
+  button:hover{
+    background-color: rgb(9, 212, 16);
+    transition: 550ms;
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculadora - Nicolas Lima</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main>
+      <h2> CALCULADORA </h2>
+
+      <input id="num1" type="number" placeholder="Digite um número">
+
+      <select id="operacao">
+        <option value="">Selecione</option>
+        <!-- option[value=$]*4 -->
+        <option value="1">Soma</option>
+        <option value="2">Subtração</option>
+        <option value="3">Multiplicação</option>
+        <option value="4">Divisão</option>
+      </select>
+
+      <input id="num2" type="number" placeholder="Digite um número">
+
+      <button onclick="calcular()">CALCULAR</button>
+
+      <label for="resultado">Resultado:</label>
+      <input id="resultado" type="text" readonly>
+      
+    </main>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
